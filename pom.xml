@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>uk.co.datumedge</groupId>
 	<artifactId>datumedge-base</artifactId>
-	<version>0.1</version>
+	<version>0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	
 	<properties>
@@ -126,6 +126,15 @@
 		</developer>
 	</developers>
 	
+	<name>DatumEdge base</name>
+	<description>Shared maven configuration for all uk.co.datumedge artifacts</description>
+	<url>https://github.com/hertzsprung/datumedge-maven</url>
+	
+	<scm>
+		<connection>scm:git:git://github.com/hertzsprung/datumedge-maven.git</connection>
+		<developerConnection>scm:git:git@github.com:hertzsprung/datumedge-maven.git</developerConnection>
+		<url>http://github.com/hertzsprung/datumedge-maven</url>
+	</scm>
 	<distributionManagement>
 		<snapshotRepository>
 			<id>sonatype-nexus-snapshots</id>
