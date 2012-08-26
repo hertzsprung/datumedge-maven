@@ -59,7 +59,6 @@
 									<version>1.0.5</version>
 								</docletArtifact>
 								<doclet>com.google.doclava.Doclava</doclet>
-								<!-- | bootclasspath required by Sun's JVM -->
 								<bootclasspath>${sun.boot.class.path}</bootclasspath>
 								<additionalparam>
 									-hdf project.name "${project.name}"
